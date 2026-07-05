@@ -1,0 +1,15 @@
+.nav {
+    font-weight: 500;
+    color: #2E2F42;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+.nav-link.feauteres:active {
+    text-decoration: underline;
+}

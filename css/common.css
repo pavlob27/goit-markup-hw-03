@@ -75,17 +75,26 @@ p {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 img {
-    display: block;
+    display: block; 
+    max-width: 100%;
+    height: auto;
 }
 .features,
 .team,
 .portfolio{
     padding: 120px 0;
 }
-.is-hidden{
-    display: none;
+.sr-only {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    margin: -1px;
 }

@@ -1,3 +1,11 @@
 .feauteres-cart {
     letter-spacing: 0.02em
 }
+.features-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.features-title{
+    padding-bottom: 8px;
+}

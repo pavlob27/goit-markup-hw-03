@@ -1,9 +1,14 @@
-.nav {
+.header>.container {
+    display: flex;
+    align-items: center;
+    height: 72px;
+}
+.header-nav {
     font-weight: 500;
     color: #2E2F42;
 }
-.nav-link:hover,
-.nav-link:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
     color: #404BBF;
 }
 .address-link:hover,
@@ -12,4 +17,21 @@
 }
 .nav-link.feauteres:active {
     text-decoration: underline;
+}
+.header-nav {
+    margin-left: auto;
+    margin-right: 340px;
+}
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-addres-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-addres {
+   
 }

@@ -16,6 +16,8 @@ a {
 ul,
 ol {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 address {
@@ -42,13 +44,6 @@ button:focus {
     text-transform: uppercase;
     color: #2E2F42;
 }
-h1 {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    
-    
-}
 h2 {
     font-size: 36px;
     line-height: 1.11;
@@ -66,4 +61,31 @@ button {
     color: #FFFFFF;
     font-weight: 500;
     letter-spacing: 0.04em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+p {
+    margin: 0;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+img {
+    display: block;
+}
+.features,
+.team,
+.portfolio{
+    padding: 120px 0;
+}
+.is-hidden{
+    display: none;
 }

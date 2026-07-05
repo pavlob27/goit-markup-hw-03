@@ -1,0 +1,18 @@
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.portfolio-cart-title{
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+.portfolio-cart-text{
+    padding-bottom: 32px;
+}
+.portfolio-title{
+    margin-bottom: 24px;
+}
+.portfolio-cart{
+    margin-top: 48px;
+}

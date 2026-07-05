@@ -7,3 +7,19 @@
 .team-cart {
     background-color: #FFFFFF;
 }
+.team-list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.team-title{
+    padding-bottom: 72px;
+}
+.team-person-name{
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+.team-person-position{
+    padding-bottom: 32px;
+}

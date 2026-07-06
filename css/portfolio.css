@@ -1,18 +1,14 @@
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-}
-.portfolio-cart-title{
-    padding-top: 32px;
-    padding-bottom: 8px;
-}
-.portfolio-cart-text{
-    padding-bottom: 32px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-title{
-    margin-bottom: 24px;
+    margin-bottom: 72px;
 }
-.portfolio-cart{
-    margin-top: 48px;
+.portfolio-text-wrapper{
+    border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    border-top: none;
 }

@@ -24,8 +24,8 @@
 .header-nav-link:focus {
     color: #404BBF;
 }
-.header-address-link:hover,
-.header-address-link:focus {
+.header-addres-link:hover,
+.header-addres-link:focus {
     color: #404BBF;
 }
 .header-nav-link.feateres:active {

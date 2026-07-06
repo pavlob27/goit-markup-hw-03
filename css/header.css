@@ -1,7 +1,9 @@
 .header>.container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid var(--white);
+}
+.header {
+    border-bottom: 1px solid var(#e7e9fc);
 }
 .header-nav {
     font-weight: 500;
@@ -22,16 +24,16 @@
 .header-nav-link:focus {
     color: #404BBF;
 }
-.address-link:hover,
-.address-link:focus {
+.header-address-link:hover,
+.header-address-link:focus {
     color: #404BBF;
 }
-.nav-link.feauteres:active {
+.header-nav-link.feateres:active {
     text-decoration: underline;
 }
 .header-nav-list {
     display: flex;
-    align-items: center;
+    align-items: center;    
     gap: 40px;
     
 }
@@ -39,5 +41,4 @@
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0px;
 }

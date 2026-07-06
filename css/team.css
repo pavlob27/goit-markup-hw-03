@@ -1,4 +1,8 @@
-.team-person-name ,.team-person-position {
+.team-person-name {
+    margin-bottom:8px;
+    text-align: center;
+}
+.team-person-position {
     text-align: center;
 }
 .team {

@@ -3,7 +3,7 @@
     align-items: center;
 }
 .header {
-    border-bottom: 1px solid var(#e7e9fc);
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
     font-weight: 500;
